@@ -1,0 +1,191 @@
+body{
+   align-content: center;
+    width: 1000px;;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+h2 {
+    color: #2A6AA1;
+    
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+li {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+.bluetext {
+    color: #2A6AA1;
+    font-weight: bolder;
+}
+
+.redtext {
+    color: red;
+}
+.centerimage{
+    text-align: center;
+}
+.smalltext{
+    font-size: 12px;
+}
+
+.button{
+    width: 175px;
+    height: 25px;
+    display: block;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 0px 0px 0px;
+    box-shadow: 3px 3px 3px #888888;
+}
+
+#wrapper{
+   /* border: 5px solid green; */
+}
+
+#header{
+    width: 1000px;
+    height: 100px;
+    display: inline-block;
+    /* border: 3px solid black; */
+}
+
+#headerimage {
+    /* border: 3px solid black; */
+    display: inline-block;
+    vertical-align: bottom;
+    height: 100px;
+}
+
+#headertext{
+    text-align: bottom;
+    vertical-align: bottom;
+    display: inline;
+    /* border: 3px solid black; */
+    font: 75px bolder;      
+    font-family: Arial, Helvetica, sans-serif;
+}
+#banner{
+    background: radial-gradient(ellipse at center, rgba(52,112,163,0.65) 0%, rgba(52,112,163,0.65) 15%, rgba(52,112,163,1) 100%); /* w3c */
+    width: 980px;
+    height: 75px;
+    line-height: 75px;
+    text-align: left;
+    vertical-align: middle;
+    padding: 0px 0px 0px 20px;
+    color: white;
+    font-size: 50px;
+}
+#mainbody{ 
+    width: 1000px;
+    border: 1px solid green;
+    background: linear-gradient(189deg, rgba(120,120,120,0.45) 0%, rgba(255,255,255,0.52) 24%, rgba(255,255,255,0.75) 100%);
+}
+#sidebar{
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    /* border: 2px solid black; */
+    }
+
+#reinventadvertisement{
+    /* display: block; */
+    border: 0px solid black;
+    background-image: url("../images/ad_background.png");
+    height: 300px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+#bluebutton{
+    background-color: #3977AB;
+}
+#lightorange {
+    background-color: #EE8100;
+}
+
+#lightblue {
+    background-color: #19B4DD;
+}
+
+#maincontent{
+    width: 791px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    vertical-align: top; 
+}
+
+#dns {
+    /* border: 2px solid black; */
+    width: 380px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;  
+}
+#contactinfo {
+    /* border: 1px solid black; */
+    width: 404px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;  
+    text-align: right;
+
+    margin: 0px 0px 5px 0px;
+    /* line-height: 15px; */
+}
+
+#contactinfo table{
+     text-align: right;
+     display: inline-block;
+     vertical-align: middle;  
+}
+
+#contactinfo table td {
+    text-align: left;
+    height: 10px;
+}
+#contacttext {
+    font-size: 20px; 
+    color: #18B4DD;
+    text-justify: inter-cluster;
+}
+
+
+#big3 {
+     border: 3px solid #3977AB;
+}
+
+#textwrap {
+    float: left;
+    margin: 3px;
+}
+#textwrapright{
+    float:right;    
+}

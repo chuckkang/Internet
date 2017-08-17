@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Internet Web Practice</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="static/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="headerimage">
+                <img width="125" height="125" src="static/images/globe.png" alt="World Image"/>
+            </div>
+            <div id="headertext"> The Inter<span class="bluetext">net</span> </div>
+        </div>
+        <div id="mainbody">
+            <div id="banner">The World Wide Web</div>
+            <div id="sidebar">
+                <h2><b>So, what's an <span class="redtext">Internet?</span></b></h2>
+                <b> An <span class="bluetext">Inter</span>connected <span class="bluetext">Net</span>work of computer's all around the world.</b>
+                
+                <div class="button" id="bluebutton"><a href="https://www.codingdojo.com">Watch Video</a></div>
+                <div class="button" id="lightorange"><a href="https://www.codingdojo.com">More Resources</a></div>
+                <hr>
+                <div id="reinventadvertisement">
+                    <p>Reinvent your career in just 14 weeks</p>
+                    <img src="static/images/ninja.png" alt="CodingDojo Ninja" width="100" height="150">
+                    <div class="button" id="lightblue"><a href="https://www.codingdojo.com" >Learn More!</a></div>
+                </div>
+            </div>
+
+            <div id="maincontent">
+                
+                <div id="dns">
+                    <img src="static/images/home.png" alt="Domain Name Serivce Image" width="50" height="50"> DNS
+                </div>
+                <div id="contactinfo">
+                    <!-- <span class="smalltext">Mon-Fri: 9am-5pm (EST)</span><Br>
+                    <img src="static/images/phone.png" alt="picture of phone" width="40" height"40" id=""/>
+                    <span id="contacttext" class="bluetext">Contact Us</span><Br>
+                    <span class="smalltext">Internationa1 +888-123-1234<span class="smalltext"> -->
+                        <table class="contactinfo">
+                            <tr><td rowspan="3">
+                                    <img src="static/images/phone.png" alt="picture of phone" width="40" height="40">
+                                </td>
+                                <td ><span class="smalltext">Mon-Fri: 9am-5pm (EST)</span></td>
+                            </tr>
+                            <tr> <td><span id="contacttext" class="bluetext">Contact Us</span></td></tr>
+                            <tr><td><span class="smalltext">Internationa1 +888-123-1234</span></td> </tr>
+                        </table>    
+                </div>
+                <hr>    
+                <div id="main">
+                    <h2>Client and Servers</h2>
+                    <p>Computer connected to the <span class="bluetext">Web</span> are called   <b>Clients</b> and <b>Servers</b></p>
+                    <ul>
+                        <li><span class="bluetext">Clients</span> are the typical web user's Internet-connected devices (for example- you computer connected to your Wide-FI, or your phone connected to your modbile network) and <span class="bluetext">Web-accessing software</span>available on those devices (usually a web browser like Firefox or Chrome).</li>
+                        <li><span class="bluetext">Servers</span> are computers that store <span class="bluetext">webpage, sites </span>or <span class="bluetext">apps</span>.  WHen a client device wants to access a webage, a copy of the webpage is downloaded from the server onto the client machine to be dislayed in the user's web browser.</li>
+                    </ul>
+                    <p class="centerimage">
+                    <img src="static/images/client_server.jpg" alt="Client Server Model picture" width="275" height="100"/></p>
+                    <h2>So What Actually Happens</h2>
+                    <ol>
+                        <li>The browser goes to the <span class="bluetext">DNS server</span> and finds the real address of the <span class="">server</span> that the website lives on.</li>
+                        <li>The browser sends an <span class="bluetext">HTTP Request</span> message to the server asking it to send a copy of the website to the client.</li>
+                        <li>If the server approves the client's request, the server send the client a <span class="bluetext">"200 OK" message</span>, which means "Permissions granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</li>
+                        <li>The browser assembles the small chunks into a complete website and displays it to you!</li> 
+                    </ol>
+                </div>
+
+                <div id="big3">
+                    <img src="static/images/html.png" alt="HTML CSS Javascript images" width="125" height="125" id="textwrap"/>
+                    <h2>The Big 3 - HTML, CSS, and Javascript</h2>
+                    While the server can process information in many differet langueages, the rules that they serve to the client are <i>always</i> going to be some combination of HTML, CSS, and JavaScript!
+                    <p>Learn more about the Big 3 <span class="bluetext">here</span></p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
